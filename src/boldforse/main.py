@@ -17,7 +17,6 @@
 # boldforse. If not, see <https://www.gnu.org/licenses/>.
 #
 
-from . import main
-
-if __name__ == "__main__":
-    main.entry()
+def entry() -> None:
+    print("HELLO WORLD!")
+    return None
